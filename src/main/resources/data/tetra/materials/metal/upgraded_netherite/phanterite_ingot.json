@@ -11,8 +11,8 @@
   "toolLevel": "minecraft:netherite",
   "toolEfficiency": "9",
   "tints": {
-    "glyph": "17B275", 
-    "texture": "287154"
+    "glyph": "BDB4B4",
+    "texture": "BDB4B4"
   },
   "textures": [
     "metal"
