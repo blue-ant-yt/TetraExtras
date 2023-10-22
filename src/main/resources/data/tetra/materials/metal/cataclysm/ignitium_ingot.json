@@ -5,11 +5,14 @@
   "secondary": "4.0",
   "tertiary": "2",
   "durability": "9000",
-  "integrityCost": "1",
-  "integrityGain": "6",
+  "integrityCost": "2",
+  "integrityGain": "10",
   "magicCapacity": "185",
   "toolLevel": "minecraft:netherite",
-  "toolEfficiency": "13",
+  "toolEfficiency": "8",
+  "effects": {
+    "stabilizing": 2
+  },
   "tints": {
     "glyph": "F5AC12",
     "texture": "F5AC12"
@@ -24,7 +27,7 @@
     ]
   },
   "improvements": {
-    "workable": 25
+    "workable": 1
   },
   "requiredTools": {
     "hammer_dig": "minecraft:netherite"
