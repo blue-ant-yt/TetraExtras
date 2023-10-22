@@ -19,7 +19,7 @@ modId="tetraextrassro" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="0.0.1-1.19" #mandatory
+version="0.0.2-1.19" #mandatory
  # A display name for the mod
 displayName="Tetra Sro Extras" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://mcforge.readthedocs.io/en/latest/gettingstarted/autoupdate/
@@ -64,7 +64,12 @@ It is made for the soul purposes for SRO and might not be compatible with your m
 [[dependencies.tetraextrassro]]
     modId="minecraft"
     mandatory=true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[1.19,1.20)"
     ordering="NONE"
+    side="BOTH"
+[[dependencies.tetraextrassro]]
+    modId="tetra"
+    mandatory=true
+    versionRange="[5.1.0,)"
+    ordering="AFTER"
     side="BOTH"
