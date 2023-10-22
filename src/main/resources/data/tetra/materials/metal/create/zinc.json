@@ -1,0 +1,27 @@
+{
+  "key": "zinc",
+  "category": "metal",
+  "primary": "4.7",
+  "secondary": "2.2",
+  "tertiary": "2.6",
+  "durability": "360",
+  "integrityCost": "2",
+  "integrityGain": "6",
+  "magicCapacity": "90",
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": "4",
+  "tints": {
+    "glyph": "bababa",
+    "texture": "bababa"
+  },
+  "textures": [
+    "metal",
+    "default"
+  ],
+  "material": {
+    "tag": "forge:ingots/zinc"
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:gold"
+  }
+}

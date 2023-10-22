@@ -1,0 +1,31 @@
+{
+  "key": "prismarite_ingot",
+  "category": "metal",
+  "primary": "14",
+  "secondary": "4.0",
+  "tertiary": "2",
+  "durability": "2031",
+  "integrityCost": "3",
+  "integrityGain": "8",
+  "magicCapacity": "135",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "9",
+  "tints": {
+    "glyph": "17B275", 
+    "texture": "287154"
+  },
+  "textures": [
+    "metal"
+  ],
+  "material": {
+    "items": [
+      "upgradednetherite:water_upgraded_netherite_ingot"
+    ]
+  },
+  "improvements": {
+    "workable": 10
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  }
+}

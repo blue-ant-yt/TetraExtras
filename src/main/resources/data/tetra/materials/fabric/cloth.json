@@ -1,0 +1,29 @@
+{
+  "key": "cloth",
+  "category": "fabric",
+  "primary": "2.4",
+  "secondary": "2.2",
+  "tertiary": "2.6",
+  "durability": "274",
+  "integrityCost": "1",
+  "integrityGain": "5",
+  "magicCapacity": "85",
+  "toolLevel": "0",
+  "toolEfficiency": "0",
+  "tints": {
+    "glyph": "845E8C",
+    "texture": "845E8C"
+  },
+  "textures": [
+    "crude",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "majruszsdifficulty:cloth"
+    ]
+  },
+  "requiredTools": {
+    "cut": "minecraft:wood"
+  }
+}

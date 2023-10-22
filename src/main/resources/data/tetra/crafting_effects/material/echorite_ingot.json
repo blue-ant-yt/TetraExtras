@@ -1,0 +1,27 @@
+{
+  "replace": true,
+  "requirement": {
+      "type": "tetra:and",
+      "requirements": [
+          {
+              "type": "tetra:craft_type",
+              "craft": "module"
+          },
+          {
+              "type": "tetra:material",
+              "material": {
+                  "items": [ "upgradednetherite:echo_upgraded_netherite_ingot" ]
+              }
+          }
+      ]
+  },
+  "outcomes": [
+      {
+          "force": true,
+          "type": "tetra:apply_enchantments",
+          "enchantments": {
+              "ars_elemental:soulbound": 1
+          }
+      }
+  ]
+}
