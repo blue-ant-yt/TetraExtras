@@ -70,6 +70,6 @@ It is made for the soul purposes for SRO and might not be compatible with your m
 [[dependencies.tetraextrassro]]
     modId="tetra"
     mandatory=true
-    versionRange="[5.1.0,)"
+    versionRange="[5.5.0,)"
     ordering="AFTER"
     side="BOTH"
