@@ -1,0 +1,28 @@
+{
+  "replace": true,
+  "requirement": {
+      "type": "tetra:and",
+      "requirements": [
+          {
+              "type": "tetra:craft_type",
+              "craft": "module"
+          },
+          {
+              "type": "tetra:material",
+              "material": {
+                  "items": [ "upgradednetherite:corrupt_upgraded_netherite_ingot" ]
+              }
+          }
+      ]
+  },
+  "outcomes": [
+      {
+          "force": true,
+          "type": "tetra:apply_enchantments",
+          "enchantments": {
+              "mo_enchants:first_strike": 1,
+              "mo_enchants:bloodthirst": 1
+          }
+      }
+  ]
+}
