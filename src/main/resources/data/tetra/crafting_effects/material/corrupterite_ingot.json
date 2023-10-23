@@ -17,12 +17,17 @@
   },
   "outcomes": [
       {
-          "force": true,
           "type": "tetra:apply_enchantments",
           "enchantments": {
               "mo_enchants:first_strike": 1,
               "mo_enchants:bloodthirst": 1
           }
       }
-  ]
+  ],
+    "conditions":[
+        {
+            "type": "forge:mod_loaded",
+            "modid": "mo_enchants"
+        }
+    ]
 }

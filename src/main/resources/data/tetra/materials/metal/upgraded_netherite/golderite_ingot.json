@@ -10,6 +10,9 @@
   "magicCapacity": "135",
   "toolLevel": "minecraft:netherite",
   "toolEfficiency": "14",
+  "effects": {
+    "stabilizing": 2
+  },
   "tints": {
     "glyph": "AFAFA5",
     "texture": "AFAFA5"

@@ -23,5 +23,11 @@
               "ars_elemental:soulbound": 1
           }
       }
+  ],
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
   ]
 }

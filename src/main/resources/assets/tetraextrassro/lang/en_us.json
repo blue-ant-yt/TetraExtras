@@ -1,4 +1,6 @@
 {
+  "tetra.material.copper_rod": "Copper Rod",
+  "tetra.material.copper_rod.prefix": "Copper Rod",
   "tetra.material.spiderite_ingot": "Spiderite",
   "tetra.material.spiderite_ingot.prefix": "Spiderite",
   "tetra.material.phanterite_ingot": "Phanterite",
