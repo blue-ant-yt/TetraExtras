@@ -1,11 +1,11 @@
 {
   "key": "enderite_ingot",
   "category": "metal",
-  "primary": "14",
+  "primary": "12",
   "secondary": "4.0",
   "tertiary": "2",
   "durability": "2031",
-  "integrityCost": "3",
+  "integrityCost": "2",
   "integrityGain": "8",
   "magicCapacity": "185",
   "toolLevel": "minecraft:netherite",
