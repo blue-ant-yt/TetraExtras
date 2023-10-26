@@ -1,9 +1,9 @@
 {
   "key": "spiderite_ingot",
   "category": "metal",
-  "primary": "14",
-  "secondary": "4.0",
-  "tertiary": "2",
+  "primary": "8.8",
+  "secondary": "2.8",
+  "tertiary": "3.4",
   "durability": "2031",
   "integrityCost": "3",
   "integrityGain": "8",

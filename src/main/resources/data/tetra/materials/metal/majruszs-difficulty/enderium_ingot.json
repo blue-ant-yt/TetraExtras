@@ -1,21 +1,21 @@
 {
-  "key": "ignitium_ingot",
+  "key": "enderium_ingot",
   "category": "metal",
-  "primary": "9.8",
-  "secondary": "3.6",
+  "primary": "9.4",
+  "secondary": "3.4",
   "tertiary": "3.8",
-  "durability": "8630",
+  "durability": "2137",
   "integrityCost": "2",
-  "integrityGain": "10",
-  "magicCapacity": "185",
+  "integrityGain": "8",
+  "magicCapacity": "135",
   "toolLevel": "minecraft:netherite",
-  "toolEfficiency": "9.3",
+  "toolEfficiency": "9.4",
   "effects": {
     "stabilizing": 2
   },
   "tints": {
-    "glyph": "F5AC12",
-    "texture": "F5AC12"
+    "glyph": "7B26CB",
+    "texture": "7B26CB"
   },
   "textures": [
     "metal",
@@ -23,7 +23,7 @@
   ],
   "material": {
     "items": [
-      "cataclysm:ignitium_ingot"
+      "majruszsdifficulty:enderium_ingot"
     ]
   },
   "improvements": {

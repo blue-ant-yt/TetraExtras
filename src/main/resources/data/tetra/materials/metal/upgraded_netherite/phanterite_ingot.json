@@ -1,11 +1,11 @@
 {
   "key": "phanterite_ingot",
   "category": "metal",
-  "primary": "14",
-  "secondary": "4.0",
-  "tertiary": "2",
+  "primary": "8.7",
+  "secondary": "2.9",
+  "tertiary": "3.4",
   "durability": "2031",
-  "integrityCost": "3",
+  "integrityCost": "2",
   "integrityGain": "8",
   "magicCapacity": "135",
   "toolLevel": "minecraft:netherite",
@@ -23,7 +23,7 @@
     ]
   },
   "improvements": {
-    "workable": 10
+
   },
   "requiredTools": {
     "hammer_dig": "minecraft:netherite"

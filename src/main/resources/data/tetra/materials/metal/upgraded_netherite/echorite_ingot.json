@@ -1,9 +1,9 @@
 {
   "key": "echorite_ingot",
   "category": "metal",
-  "primary": "14",
-  "secondary": "4.0",
-  "tertiary": "2",
+  "primary": "9.8",
+  "secondary": "3.4",
+  "tertiary": "3.5",
   "durability": "2031",
   "integrityCost": "3",
   "integrityGain": "8",

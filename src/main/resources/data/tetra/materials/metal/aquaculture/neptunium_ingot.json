@@ -1,32 +1,33 @@
 {
-  "key": "blazerite_ingot",
+  "key": "neptunium_ingot",
   "category": "metal",
   "primary": "8.4",
-  "secondary": "3.2",
-  "tertiary": "3.5",
-  "durability": "2431",
+  "secondary": "2.4",
+  "tertiary": "2.8",
+  "durability": "1796",
   "integrityCost": "2",
   "integrityGain": "8",
   "magicCapacity": "235",
   "toolLevel": "minecraft:netherite",
-  "toolEfficiency": "9",
+  "toolEfficiency": "8.4",
   "effects": {
-    "fierySelf": [ 3, 0.1 ]
+    "stabilizing": 2
   },
   "tints": {
-    "glyph": "DE8316",
-    "texture": "DE8316"
+    "glyph": "1DD68E",
+    "texture": "1DD68E"
   },
   "textures": [
-    "metal"
+    "metal",
+    "shiny"
   ],
   "material": {
     "items": [
-      "upgradednetherite:fire_upgraded_netherite_ingot"
+      "aquaculture:neptunium_ingot"
     ]
   },
   "improvements": {
-    "workable": 5
+    "workable": 1
   },
   "requiredTools": {
     "hammer_dig": "minecraft:netherite"
