@@ -1,10 +1,24 @@
 {
+  "item.tetraextrassro.wither_bone": "Wither Bone",
+
+  "tetra.material.wither_bone": "Wither Bone",
+  "tetra.material.wither_bone.prefix": "Wither Bone",
+
+
   "tetra.material.enderium_ingot": "Enderium",
   "tetra.material.enderium_ingot.prefix": "Enderium",
-  "tetra.material.neptunium_ingot": "Neptunium",
-  "tetra.material.neptunium_ingot.prefix": "Neptunium",
-  "tetra.material.copper_rod": "Copper Rod",
-  "tetra.material.copper_rod.prefix": "Copper Rod",
+
+
+  "tetra.material.etherium": "Etherium",
+  "tetra.material.etherium.prefix": "Etherium",
+  "tetra.material.nefarious": "Nefarious",
+  "tetra.material.nefarious.prefix": "Nefarious",
+
+
+  "tetra.material.rope": "Rope",
+  "tetra.material.rope.prefix": "Rope",
+
+
   "tetra.material.spiderite_ingot": "Spiderite",
   "tetra.material.spiderite_ingot.prefix": "Spiderite",
   "tetra.material.phanterite_ingot": "Phanterite",
@@ -25,20 +39,36 @@
   "tetra.material.golderite_ingot.prefix": "Golderite",
   "tetra.material.echorite_ingot": "Echorite",
   "tetra.material.echorite_ingot.prefix": "Echorite",
-  "tetra.material.ignitium_ingot": "Ignitium",
-  "tetra.material.ignitium_ingot.prefix": "Ignitium",
-  "tetra.material.cloth": "Cloth",
-  "tetra.material.cloth.prefix": "Cloth",
-  "tetra.material.refined_radiance": "Refined Radiance",
-  "tetra.material.refined_radiance.prefix": "Refined Radiance",
-  "tetra.material.shadow_steel": "Shadow Steel",
-  "tetra.material.shadow_steel.prefix": "Shadow Steel",
+
+
+  "tetra.material.canvas": "Canvas",
+  "tetra.material.canvas.prefix": "Canvas",
+
+
+  "tetra.material.neptunium_ingot": "Neptunium",
+  "tetra.material.neptunium_ingot.prefix": "Neptunium",
+
+
+  "tetra.material.copper_rod": "Copper Rod",
+  "tetra.material.copper_rod.prefix": "Copper Rod",
   "tetra.material.andesite_alloy": "Andesite Alloy",
   "tetra.material.andesite_alloy.prefix": "Andesite Alloy",
   "tetra.material.zinc": "Zinc",
   "tetra.material.zinc.prefix": "Zinc",
   "tetra.material.brass": "Brass",
   "tetra.material.brass.prefix": "Brass",
+
+
+  "tetra.material.ignitium_ingot": "Ignitium",
+  "tetra.material.ignitium_ingot.prefix": "Ignitium",
+
+
+  "tetra.material.cloth": "Cloth",
+  "tetra.material.cloth.prefix": "Cloth",
+  "tetra.material.refined_radiance": "Refined Radiance",
+  "tetra.material.refined_radiance.prefix": "Refined Radiance",
+  "tetra.material.shadow_steel": "Shadow Steel",
+  "tetra.material.shadow_steel.prefix": "Shadow Steel",
   "tetra.material.moonstone": "Moonstone",
   "tetra.material.moonstone.prefix": "Moonstone",
   "tetra.material.tattered_cloth": "Tattered Cloth",
@@ -66,10 +96,6 @@
   "tetra.material.straw": "Straw",
   "tetra.material.straw.prefix": "Straw",
   "tetra.variant.basic_string/straw": "Twined Straw",
-  "tetra.material.canvas": "Canvas",
-  "tetra.material.canvas.prefix": "Canvas",
-  "tetra.material.rope": "Rope",
-  "tetra.material.rope.prefix": "Rope",
   "tetra.material.blossom": "Blossom",
   "tetra.material.blossom.prefix": "Blossom",
   "tetra.material.azalea": "Azalea",
