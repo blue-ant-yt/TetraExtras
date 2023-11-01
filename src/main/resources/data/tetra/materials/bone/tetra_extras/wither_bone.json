@@ -1,15 +1,18 @@
 {
   "key": "wither_bone",
   "category": "bone",
-  "primary": 6.5,
-  "secondary": 4,
-  "tertiary": 6,
-  "durability": 958,
-  "integrityCost": 2,
-  "integrityGain": 5,
-  "magicCapacity": 182,
+  "primary": "6.5",
+  "secondary": "4",
+  "tertiary": "6",
+  "durability": "958",
+  "integrityCost": "2",
+  "integrityGain": "5",
+  "magicCapacity": "182",
   "toolLevel": "minecraft:iron",
-  "toolEfficiency": 8,
+  "toolEfficiency": "8",
+  "effects": {
+    "unstable": 10
+  },
   "tints": {
     "glyph": "4c4854",
     "texture": "27252b"
@@ -19,12 +22,17 @@
     "crude"
   ],
   "material": {
-    "tag": "tetraextrassro:wither_bone"
-  },
-  "effects": {
-    "unstable": 10
+    "items": [
+      "tetraextrassro:wither_bone"
+    ]
   },
   "requiredTools": {
     "hammer_dig": "minecraft:iron"
-  }
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tetraextrassro"
+    }
+  ]
 }

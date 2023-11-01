@@ -27,5 +27,11 @@
   },
   "requiredTools": {
     "hammer_dig": "minecraft:netherite"
-  }
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgradednetherite"
+    }
+  ]
 }

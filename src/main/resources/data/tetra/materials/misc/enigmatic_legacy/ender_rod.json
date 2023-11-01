@@ -25,5 +25,11 @@
   },
   "requiredTools": {
     "hammer_dig": "minecraft:diamond"
-  }
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ]
 }

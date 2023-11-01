@@ -23,5 +23,11 @@
   },
   "requiredTools": {
     "hammer_dig": "minecraft:gold"
-  }
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

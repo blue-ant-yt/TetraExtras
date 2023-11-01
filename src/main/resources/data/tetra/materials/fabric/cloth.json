@@ -25,5 +25,11 @@
   },
   "requiredTools": {
     "cut": "minecraft:wood"
-  }
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "majruszsdifficulty"
+    }
+  ]
 }
