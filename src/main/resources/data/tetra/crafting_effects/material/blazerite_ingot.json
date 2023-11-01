@@ -22,5 +22,11 @@
               "minecraft:fire_aspect": 1
           }
       }
+  ],
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgradednetherite"
+    }
   ]
 }

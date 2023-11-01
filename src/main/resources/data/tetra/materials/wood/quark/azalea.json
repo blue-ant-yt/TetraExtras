@@ -25,5 +25,11 @@
   },
   "requiredTools": {
     "axe_dig": "minecraft:wood"
-  }
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+  ]
 }

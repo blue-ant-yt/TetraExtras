@@ -29,5 +29,11 @@
   },
   "requiredTools": {
     "hammer_dig": "minecraft:wood"
-  }
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }
