@@ -1,4 +1,11 @@
 {
+  "tetra.variant_category.gems.label": "Gemas",
+
+  "tetra.meterial.amethyst": "Amatista",
+  "tetra.meterial.amethyst.prefix": "Amatista",
+  "tetra.meterial.blackopal": "ópalo negro",
+  "tetra.meterial.blackopal.prefix": "ópalo negro",
+
   "tetra.material.enderium_ingot": "Enderium",
   "tetra.material.enderium_ingot.prefix": "Enderium",
 

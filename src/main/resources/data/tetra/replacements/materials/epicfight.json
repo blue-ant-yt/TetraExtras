@@ -1,0 +1,146 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "epicfight"
+      }
+    ],
+    "predicate": {
+      "items": [ "epicfight:iron_dagger" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/short_blade", "short_blade/iron" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/stick" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "epicfight"
+      }
+    ],
+    "predicate": {
+      "items": [ "epicfight:golden_dagger" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/short_blade", "short_blade/gold" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/stick" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "epicfight"
+      }
+    ],
+    "predicate": {
+      "items": [ "epicfight:diamond_dagger" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/short_blade", "short_blade/diamond" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/stick" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "epicfight"
+      }
+    ],
+    "predicate": {
+      "items": [ "epicfight:netherite_dagger" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/short_blade", "short_blade/netherite" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/stick" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "epicfight"
+      }
+    ],
+    "predicate": {
+      "items": [ "epicfight:netherite_spear" ]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": [ "single/spearhead", "spearhead/netherite" ],
+      "single/handle": [ "single/long_handle", "long_handle/stick" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "epicfight"
+      }
+    ],
+    "predicate": {
+      "items": [ "epicfight:iron_spear" ]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": [ "single/spearhead", "spearhead/iron" ],
+      "single/handle": [ "single/long_handle", "long_handle/stick" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "epicfight"
+      }
+    ],
+    "predicate": {
+      "items": [ "epicfight:stone_spear" ]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": [ "single/spearhead", "spearhead/stone" ],
+      "single/handle": [ "single/long_handle", "long_handle/stick" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "epicfight"
+      }
+    ],
+    "predicate": {
+      "items": [ "epicfight:golden_spear" ]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": [ "single/spearhead", "spearhead/gold" ],
+      "single/handle": [ "single/long_handle", "long_handle/stick" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "epicfight"
+      }
+    ],
+    "predicate": {
+      "items": [ "epicfight:diamond_spear" ]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": [ "single/spearhead", "spearhead/diamond" ],
+      "single/handle": [ "single/long_handle", "long_handle/stick" ]
+    }
+  }
+]

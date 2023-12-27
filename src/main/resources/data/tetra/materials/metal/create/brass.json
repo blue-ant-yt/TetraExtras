@@ -27,7 +27,7 @@
   "requiredTools": {
     "hammer_dig": "minecraft:iron"
   },
-  "conditions":[
+  "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "create"

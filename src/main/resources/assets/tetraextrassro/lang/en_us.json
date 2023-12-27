@@ -1,4 +1,11 @@
 {
+  "tetra.variant_category.gems.label": "Gems",
+
+  "tetra.meterial.amethyst": "Amethyst",
+  "tetra.meterial.amethyst.prefix": "Amethyst",
+  "tetra.meterial.blackopal": "Black Opal",
+  "tetra.meterial.blackopal.prefix": "Black Opal",
+
   "tetra.material.enderium_ingot": "Enderium",
   "tetra.material.enderium_ingot.prefix": "Enderium",
 
@@ -55,6 +62,8 @@
 
   "tetra.material.ignitium_ingot": "Ignitium",
   "tetra.material.ignitium_ingot.prefix": "Ignitium",
+  "tetra.material.cwitherite_ingot": "Witherite",
+  "tetra.material.cwitherite_ingot.prefix": "Witherite",
 
 
   "tetra.material.cloth": "Cloth",
