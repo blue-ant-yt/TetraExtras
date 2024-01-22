@@ -1,0 +1,10 @@
+{
+  "type": "sword",
+  "attributes": {
+    "one_hand": {
+      "armor_negation": 8.0,
+      "impact": 1.9,
+      "max_strikes": 1
+    }
+  }
+}

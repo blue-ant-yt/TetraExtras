@@ -522,7 +522,7 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": [ "double/basic_axe_left", "basic_axe/golderite_ingot" ],
-      "double/head_right": [ "double/basic_axe_right", "basic_axe/golderite_ingot" ],
+      "double/head_right": [ "double/butt_right", "butt/golderite_ingot" ],
       "double/handle": [ "double/basic_handle", "basic_handle/golderite_ingot" ]
     }
   },
@@ -539,7 +539,7 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/blazerite_ingot"],
-      "double/head_right": ["double/basic_axe_right", "basic_axe/blazerite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/blazerite_ingot"],
       "double/handle": ["double/basic_handle", "basic_handle/blazerite_ingot"]
     }
   },
@@ -556,7 +556,7 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/enderite_ingot"],
-      "double/head_right": ["double/basic_axe_right", "basic_axe/enderite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/enderite_ingot"],
       "double/handle": ["double/basic_handle", "basic_handle/enderite_ingot"]
     }
   },
@@ -573,7 +573,7 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/prismarite_ingot"],
-      "double/head_right": ["double/basic_axe_right", "basic_axe/prismarite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/prismarite_ingot"],
       "double/handle": ["double/basic_handle", "basic_handle/prismarite_ingot"]
     }
   },
@@ -590,7 +590,7 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/witherite_ingot"],
-      "double/head_right": ["double/basic_axe_right", "basic_axe/witherite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/witherite_ingot"],
       "double/handle": ["double/basic_handle", "basic_handle/witherite_ingot"]
     }
   },
@@ -607,7 +607,7 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/spiderite_ingot"],
-      "double/head_right": ["double/basic_axe_right", "basic_axe/spiderite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/spiderite_ingot"],
       "double/handle": ["double/basic_handle", "basic_handle/spiderite_ingot"]
     }
   },
@@ -624,7 +624,7 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/phanterite_ingot"],
-      "double/head_right": ["double/basic_axe_right", "basic_axe/phanterite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/phanterite_ingot"],
       "double/handle": ["double/basic_handle", "basic_handle/phanterite_ingot"]
     }
   },
@@ -641,7 +641,7 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/featherite_ingot"],
-      "double/head_right": ["double/basic_axe_right", "basic_axe/featherite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/featherite_ingot"],
       "double/handle": ["double/basic_handle", "basic_handle/featherite_ingot"]
     }
   },
@@ -658,7 +658,7 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/corrupterite_ingot"],
-      "double/head_right": ["double/basic_axe_right", "basic_axe/corrupterite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/corrupterite_ingot"],
       "double/handle": ["double/basic_handle", "basic_handle/corrupterite_ingot"]
     }
   },
@@ -675,8 +675,408 @@
     "item": "tetra:modular_double",
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/echorite_ingot"],
-      "double/head_right": ["double/basic_axe_right", "basic_axe/echorite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/echorite_ingot"],
       "double/handle": ["double/basic_handle", "basic_handle/echorite_ingot"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:gold_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/golderite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:fire_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/blazerite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:ender_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/enderite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:water_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/prismarite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:wither_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/witherite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:poison_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/spiderite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:phantom_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/phanterite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:feather_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/featherite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:corrupt_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/corrupterite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:echo_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/echorite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:gold_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/golderite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/golderite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:fire_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/blazerite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/blazerite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:ender_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/enderite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/enderite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:water_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/prismarite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/prismarite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:wither_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/witherite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/witherite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:poison_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/spiderite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/spiderite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:phantom_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/phanterite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/phanterite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:feather_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/featherite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/featherite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:corrupt_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/corrupterite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/corrupterite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite:echo_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/echorite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/echorite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
     }
   }
 ]

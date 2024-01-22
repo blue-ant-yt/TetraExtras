@@ -1,5 +1,11 @@
 {
   "replace": true,
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mo_enchants"
+    }
+  ],
   "requirement": {
       "type": "tetra:and",
       "requirements": [
@@ -23,11 +29,5 @@
               "mo_enchants:bloodthirst": 1
           }
       }
-  ],
-    "conditions":[
-        {
-            "type": "forge:mod_loaded",
-            "modid": "mo_enchants"
-        }
-    ]
+  ]
 }
