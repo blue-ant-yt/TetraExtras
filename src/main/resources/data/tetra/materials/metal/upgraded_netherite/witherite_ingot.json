@@ -1,0 +1,37 @@
+{
+  "key": "witherite_ingot",
+  "category": "metal",
+  "primary": "8.6",
+  "secondary": "3.2",
+  "tertiary": "3.5",
+  "durability": "2031",
+  "integrityCost": "2",
+  "integrityGain": "8",
+  "magicCapacity": "135",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "9",
+  "tints": {
+    "glyph": "000000",
+    "texture": "000000"
+  },
+  "textures": [
+    "metal"
+  ],
+  "material": {
+    "items": [
+      "upgradednetherite:wither_upgraded_netherite_ingot"
+    ]
+  },
+  "improvements": {
+    "workable": 10
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgradednetherite"
+    }
+  ]
+}

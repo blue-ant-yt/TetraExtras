@@ -1,0 +1,104 @@
+{
+  "tetra.variant_category.gems.label": "Gemas",
+
+  "tetra.meterial.amethyst": "Amatista",
+  "tetra.meterial.amethyst.prefix": "Amatista",
+  "tetra.meterial.blackopal": "ópalo negro",
+  "tetra.meterial.blackopal.prefix": "ópalo negro",
+
+  "tetra.material.enderium_ingot": "Enderium",
+  "tetra.material.enderium_ingot.prefix": "Enderium",
+
+
+  "tetra.material.etherium": "Etherium",
+  "tetra.material.etherium.prefix": "Etherium",
+  "tetra.material.nefarious": "Nefarious",
+  "tetra.material.nefarious.prefix": "Nefarious",
+
+
+  "tetra.material.rope": "Soga",
+  "tetra.material.rope.prefix": "Soga",
+
+
+  "tetra.material.spiderite_ingot": "Spiderite",
+  "tetra.material.spiderite_ingot.prefix": "Spiderite",
+  "tetra.material.phanterite_ingot": "Phanterite",
+  "tetra.material.phanterite_ingot.prefix": "Phanterite",
+  "tetra.material.witherite_ingot": "Witherite",
+  "tetra.material.witherite_ingot.prefix": "Witherite",
+  "tetra.material.prismarite_ingot": "Prismarite",
+  "tetra.material.prismarite_ingot.prefix": "Prismarite",
+  "tetra.material.enderite_ingot": "Enderite",
+  "tetra.material.enderite_ingot.prefix": "Enderite",
+  "tetra.material.blazerite_ingot": "Blazerite",
+  "tetra.material.blazerite_ingot.prefix": "Blazerite",
+  "tetra.material.featherite_ingot": "Featherite",
+  "tetra.material.featherite_ingot.prefix": "Featherite",
+  "tetra.material.corrupterite_ingot": "Corrupterite",
+  "tetra.material.corrupterite_ingot.prefix": "Corrupterite",
+  "tetra.material.golderite_ingot": "Golderite",
+  "tetra.material.golderite_ingot.prefix": "Golderite",
+  "tetra.material.echorite_ingot": "Echorite",
+  "tetra.material.echorite_ingot.prefix": "Echorite",
+
+
+  "tetra.material.canvas": "Canvas",
+  "tetra.material.canvas.prefix": "Canvas",
+
+
+  "tetra.material.neptunium_ingot": "Neptunium",
+  "tetra.material.neptunium_ingot.prefix": "Neptunium",
+
+
+  "tetra.material.copper_rod": "Barra de cobre",
+  "tetra.material.copper_rod.prefix": "Barra de cobre",
+  "tetra.material.andesite_alloy": "Aleación de andesita",
+  "tetra.material.andesite_alloy.prefix": "Aleación de andesita",
+  "tetra.material.zinc": "Zinc",
+  "tetra.material.zinc.prefix": "Zinc",
+  "tetra.material.brass": "Latón",
+  "tetra.material.brass.prefix": "Latón",
+
+
+  "tetra.material.ignitium_ingot": "Ignitium",
+  "tetra.material.ignitium_ingot.prefix": "Ignitium",
+
+
+  "tetra.material.cloth": "Tela",
+  "tetra.material.cloth.prefix": "Tela",
+  "tetra.material.refined_radiance": "Resplandor refinado",
+  "tetra.material.refined_radiance.prefix": "Resplandor refinado",
+  "tetra.material.shadow_steel": "Acero de sombra",
+  "tetra.material.shadow_steel.prefix": "Acero de sombra",
+  "tetra.material.moonstone": "Piedra de la luna",
+  "tetra.material.moonstone.prefix": "Piedra de la luna",
+  "tetra.material.tattered_cloth": "Tela hecha jirones",
+  "tetra.material.tattered_cloth.prefix": "Tela hecha jirones",
+  "tetra.material.wicked_weave": "Tejido malvado",
+  "tetra.material.wicked_weave.prefix": "Tejido malvado",
+  "tetra.material.ravager_hide": "Piel de devastador",
+  "tetra.material.ravager_hide.prefix": "Piel de devastador",
+  "tetra.variant.basic_string/ravager_hide": "Cordón de piel de devastador",
+  "tetra.material.cave_roots": "Raíces de cueva",
+  "tetra.material.cave_roots.prefix": "Raíces de cueva",
+  "tetra.material.crab_shell": "Caparazón del cangrejo",
+  "tetra.material.crab_shell.prefix": "Caparazón del cangrejo",
+  "tetra.material.dragon_scale": "Escala de dragón",
+  "tetra.material.dragon_scale.prefix": "Escala de dragón",
+  "tetra.material.thrasher_tooth": "Diente de trillador",
+  "tetra.material.thrasher_tooth.prefix": "Diente de trillador",
+  "tetra.material.myalite": "Myalite",
+  "tetra.material.myalite.prefix": "Myalite",
+  "tetra.material.booflo_hide": "Piel de Booflo",
+  "tetra.material.booflo_hide.prefix": "Piel de Booflo",
+  "tetra.variant.basic_string/boofle_hide": "Cordón de piel de Booflo",
+  "tetra.material.poise": "Poise",
+  "tetra.material.poise.prefix": "Poise",
+  "tetra.material.straw": "Pajita",
+  "tetra.material.straw.prefix": "Pajita",
+  "tetra.variant.basic_string/straw": "Pajita trenzada",
+  "tetra.material.blossom": "Florecer",
+  "tetra.material.blossom.prefix": "Florecer",
+  "tetra.material.azalea": "Azalea",
+  "tetra.material.azalea.prefix": "Azalea"
+}

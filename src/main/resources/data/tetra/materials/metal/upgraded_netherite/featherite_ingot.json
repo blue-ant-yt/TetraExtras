@@ -1,0 +1,37 @@
+{
+  "key": "featherite_ingot",
+  "category": "metal",
+  "primary": "6.4",
+  "secondary": "1.8",
+  "tertiary": "1.4",
+  "durability": "2031",
+  "integrityCost": "2",
+  "integrityGain": "8",
+  "magicCapacity": "135",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "9",
+  "tints": {
+    "glyph": "2FA091",
+    "texture": "2FA091"
+  },
+  "textures": [
+    "metal"
+  ],
+  "material": {
+    "items": [
+      "upgradednetherite:feather_upgraded_netherite_ingot"
+    ]
+  },
+  "improvements": {
+    "workable": 10
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgradednetherite"
+    }
+  ]
+}

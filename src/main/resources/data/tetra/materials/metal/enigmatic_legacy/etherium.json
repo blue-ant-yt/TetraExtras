@@ -1,0 +1,35 @@
+{
+  "key": "etherium",
+  "category": "metal",
+  "primary": "11.2",
+  "secondary": "1.4",
+  "tertiary": "4.5",
+  "durability": "2426",
+  "integrityCost": "2",
+  "integrityGain": "8",
+  "magicCapacity": "216",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "11",
+  "tints": {
+    "glyph": "a7f4f4",
+    "texture": "a7f4f4"
+  },
+  "textures": [
+    "shiny",
+    "default"
+  ],
+  "material": {
+    "items": [
+      "enigmaticlegacy:etherium_ingot"
+    ]
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ]
+}
