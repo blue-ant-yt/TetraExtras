@@ -1,0 +1,40 @@
+{
+  "key": "blazerite_ingot",
+  "category": "metal",
+  "primary": "8.4",
+  "secondary": "3.2",
+  "tertiary": "3.5",
+  "durability": "2431",
+  "integrityCost": "2",
+  "integrityGain": "8",
+  "magicCapacity": "235",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "9",
+  "effects": {
+    "fierySelf": [ 3, 0.1 ]
+  },
+  "tints": {
+    "glyph": "DE8316",
+    "texture": "DE8316"
+  },
+  "textures": [
+    "metal"
+  ],
+  "material": {
+    "items": [
+      "upgradednetherite:fire_upgraded_netherite_ingot"
+    ]
+  },
+  "improvements": {
+    "workable": 5
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgradednetherite"
+    }
+  ]
+}

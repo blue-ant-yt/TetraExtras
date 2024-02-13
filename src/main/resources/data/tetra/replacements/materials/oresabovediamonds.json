@@ -1,0 +1,37 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "oresabovediamonds"
+      }
+    ],
+    "predicate": {
+      "items": [ "oresabovediamonds:black_opal_sword" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/basic_blade", "basic_blade/blackopal" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/stick" ],
+      "sword/pommel": [ "sword/grip_loop", "grip_loop/blackopal" ],
+      "sword/guard": [ "sword/wide_guard", "wide_guard/blackopal" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "oresabovediamonds"
+      }
+    ],
+    "predicate": {
+      "items": [ "oresabovediamonds:black_opal_pickaxe" ]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": [ "double/basic_pickaxe_left", "basic_pickaxe/blackopal" ],
+      "double/head_right": [ "double/basic_pickaxe_right", "basic_pickaxe/blackopal" ],
+      "double/handle": [ "double/basic_handle", "basic_handle/stick" ]
+    }
+  }
+]

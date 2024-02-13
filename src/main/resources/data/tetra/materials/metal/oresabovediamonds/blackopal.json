@@ -1,0 +1,38 @@
+{
+  "key": "blackopal",
+  "category": "metal",
+  "primary": "8.4",
+  "secondary": "3.2",
+  "tertiary": "3.5",
+  "durability": "2431",
+  "integrityCost": "2",
+  "integrityGain": "8",
+  "magicCapacity": "235",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "9",
+  "tints": {
+    "glyph": "652C9B",
+    "texture": "652C9B"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "oresabovediamonds:black_opal"
+    ]
+  },
+  "improvements": {
+    "workable": 5
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "oresabovediamonds"
+    }
+  ]
+}

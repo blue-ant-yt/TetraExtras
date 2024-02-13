@@ -1,0 +1,40 @@
+{
+  "key": "golderite_ingot",
+  "category": "metal",
+  "primary": "6.8",
+  "secondary": "4.0",
+  "tertiary": "2",
+  "durability": "1843",
+  "integrityCost": "2",
+  "integrityGain": "8",
+  "magicCapacity": "135",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "14",
+  "effects": {
+    "stabilizing": 2
+  },
+  "tints": {
+    "glyph": "AFAFA5",
+    "texture": "AFAFA5"
+  },
+  "textures": [
+    "metal"
+  ],
+  "material": {
+    "items": [
+      "upgradednetherite:gold_upgraded_netherite_ingot"
+    ]
+  },
+  "improvements": {
+    "workable": 15
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgradednetherite"
+    }
+  ]
+}

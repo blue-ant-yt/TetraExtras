@@ -1,0 +1,37 @@
+{
+  "key": "amethyst",
+  "category": "gems",
+  "primary": "5.0",
+  "secondary": "2.7",
+  "tertiary": "0",
+  "durability": "850",
+  "integrityCost": "2",
+  "integrityGain": "2",
+  "magicCapacity": "72",
+  "toolLevel": "minecraft:iron",
+  "toolEfficiency": "7.0",
+  "tints": {
+    "glyph": "BA29F0",
+    "texture": "C244ED"
+  },
+  "textures": [
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "oresabovediamonds:amethyst"
+    ]
+  },
+  "improvements": {
+    "workable": 1
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:iron"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "oresabovediamonds"
+    }
+  ]
+}
