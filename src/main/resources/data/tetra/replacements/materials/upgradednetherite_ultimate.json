@@ -1,0 +1,110 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite_ultimate"
+      }
+    ],
+    "predicate": {
+      "items": [ "upgradednetherite_ultimate:ultimate_upgraded_netherite_sword" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/basic_blade", "basic_blade/ultimerite_ingot" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/ultimerite_ingot" ],
+      "sword/pommel": [ "sword/grip_loop", "grip_loop/netherite" ],
+      "sword/guard": [ "sword/wide_guard", "wide_guard/netherite" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite_ultimate"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite_ultimate:ultimate_upgraded_netherite_pickaxe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/ultimerite_ingot"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/ultimerite_ingot"],
+      "double/handle": ["double/basic_handle", "basic_handle/ultimerite_ingot"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite_ultimate"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite_ultimate:ultimate_upgraded_netherite_shovel"]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/ultimerite_ingot"],
+      "single/handle": ["single/basic_handle", "basic_handle/ultimerite_ingot"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite_ultimate"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite_ultimate:ultimate_upgraded_netherite_axe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_axe_left", "basic_axe/ultimerite_ingot"],
+      "double/head_right": ["double/butt_right", "butt/ultimerite_ingot"],
+      "double/handle": ["double/basic_handle", "basic_handle/ultimerite_ingot"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite_ultimate"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite_ultimate:ultimate_upgraded_netherite_bow"]
+    },
+    "item": "tetra:modular_bow",
+    "modules": {
+      "bow/stave": ["bow/straight_stave", "straight_stave/ultimerite_ingot"],
+      "bow/string": ["bow/basic_string", "basic_string/string"]
+    },
+    "improvements": {
+      "bow/stave:stave/wrap/string": 0
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "upgradednetherite_ultimate"
+      }
+    ],
+    "predicate": {
+      "items": ["upgradednetherite_ultimate:ultimate_upgraded_netherite_crossbow"]
+    },
+    "item": "tetra:modular_crossbow",
+    "modules": {
+      "crossbow/stave": ["crossbow/basic_stave", "basic_stave/ultimerite_ingot"],
+      "crossbow/stock": ["crossbow/basic_stock", "basic_stock/ultimerite_ingot"],
+      "crossbow/string": ["crossbow/basic_string", "basic_string/string"],
+      "crossbow/attachment_1": ["crossbow/stirrup", "stirrup/iron"]
+    },
+    "improvements": {
+      "crossbow/stock:trigger/simple": 1
+    }
+  }
+]

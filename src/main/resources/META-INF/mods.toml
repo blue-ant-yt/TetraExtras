@@ -15,7 +15,7 @@ license="MIT License"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="tetraextrassro" #mandatory
+modId="tetraextras" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
@@ -46,25 +46,25 @@ This mod adds compatibility between mods and Tetra.
 It was made for the SRO modpack, but now it is a mod work on independently from the modpack.
 '''
 
-[[dependencies.tetraextrassro]] #optional
+[[dependencies.tetraextras]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
     versionRange="[41,)" #mandatory
     ordering="NONE"
     side="BOTH"
-[[dependencies.tetraextrassro]]
+[[dependencies.tetraextras]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19,1.20)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.tetraextrassro]]
+[[dependencies.tetraextras]]
     modId="tetra"
     mandatory=true
     versionRange="[5.5.0,)"
     ordering="AFTER"
     side="BOTH"
-[[dependencies.tetraextrassro]]
+[[dependencies.tetraextras]]
     modId="tetra"
     mandatory=false
     versionRange="[5.5.0,)"

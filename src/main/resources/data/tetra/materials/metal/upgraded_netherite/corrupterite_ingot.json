@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "key": "corrupterite_ingot",
   "category": "metal",
   "primary": "12.4",
@@ -15,18 +16,30 @@
   },
   "tints": {
     "glyph": "A12509",
-    "texture": "A12509"
+    "texture": "717171"
   },
   "textures": [
-    "metal"
+    "corrupt"
+  ],
+  "textureOverrides": [
+    "items/module/single/head/basic_shovel/",
+    "items/module/single/handle/basic/",
+    "items/module/single/handle/light/",
+    "items/module/single/handle/long/",
+    "items/module/sword/blade/short/",
+    "items/module/sword/blade/throwing_knife/",
+    "items/module/sword/blade/machete/",
+    "items/module/sword/blade/heavy/",
+    "items/module/sword/blade/basic/",
+    "items/module/sword/hilt/basic/",
+    "items/module/sword/guard/wide_guard/",
+    "items/module/sword/guard/makeshift_guard/"
+
   ],
   "material": {
     "items": [
       "upgradednetherite:corrupt_upgraded_netherite_ingot"
     ]
-  },
-  "improvements": {
-
   },
   "requiredTools": {
     "hammer_dig": "minecraft:netherite"

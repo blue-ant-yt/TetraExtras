@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TetraExtrasSRO.test.iml" filepath="$PROJECT_DIR$/.idea/modules/TetraExtrasSRO.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tetra_Extras_1.19.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tetra_Extras_1.19.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tetra_Extras_1.19.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tetra_Extras_1.19.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.vinnaxy.tetraextras.Tetra_Extras_1.19.main.iml" filepath="$PROJECT_DIR$/.idea/modules/net.vinnaxy.tetraextras.Tetra_Extras_1.19.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/net.vinnaxy.tetraextras.Tetra_Extras_1.19.test.iml" filepath="$PROJECT_DIR$/.idea/modules/net.vinnaxy.tetraextras.Tetra_Extras_1.19.test.iml" />
     </modules>
   </component>
 </project>

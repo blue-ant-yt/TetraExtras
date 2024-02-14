@@ -1,4 +1,4 @@
-package net.vinnaxy.tetraextrassro;
+package net.vinnaxy.tetraextras;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.common.MinecraftForge;
@@ -8,16 +8,17 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.vinnaxy.tetraextrassro.item.ModItems;
+import net.vinnaxy.tetraextras.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TetraExtrasSro.MOD_ID)
-public class TetraExtrasSro {
-    public static final String MOD_ID = "tetraextrassro";
+@Mod(TetraExtras.MOD_ID)
+public class TetraExtras {
+    public static final String MOD_ID = "tetraextras";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public TetraExtrasSro() {
+
+    public TetraExtras() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.ITEMS.register(modEventBus);
