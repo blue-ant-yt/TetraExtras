@@ -1,0 +1,41 @@
+{
+  "key": "insanium_ingot",
+  "category": "metal",
+  "primary": "28",
+  "secondary": "11.2",
+  "tertiary": "2.8",
+  "durability": "200000",
+  "integrityCost": "2",
+  "integrityGain": "14",
+  "magicCapacity": "845",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "18",
+  "effects": {
+    "stabilizing": 6,
+    "unbreaking": 100
+  },
+  "tints": {
+    "glyph": "9C25EE",
+    "texture": "9C25EE"
+  },
+  "textures": [
+    "crude"
+  ],
+  "material": {
+    "items": [
+      "mysticalagradditions:insanium_ingot"
+    ]
+  },
+  "improvements": {
+    "workable": 4
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagradditions"
+    }
+  ]
+}

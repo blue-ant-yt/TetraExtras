@@ -1,0 +1,37 @@
+{
+  "key": "tertium_ingot",
+  "category": "metal",
+  "primary": "13",
+  "secondary": "5.2",
+  "tertiary": "2.8",
+  "durability": "4000",
+  "integrityCost": "2",
+  "integrityGain": "10",
+  "magicCapacity": "445",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "10",
+  "tints": {
+    "glyph": "D6921D",
+    "texture": "D6921D"
+  },
+  "textures": [
+    "crude"
+  ],
+  "material": {
+    "items": [
+      "mysticalagriculture:tertium_ingot"
+    ]
+  },
+  "improvements": {
+    "workable": 2
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

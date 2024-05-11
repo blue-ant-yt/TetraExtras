@@ -1,0 +1,343 @@
+[
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": [ "advancednetherite:netherite_diamond_sword" ]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": [ "sword/basic_blade", "basic_blade/netherite_diamond" ],
+      "sword/hilt": [ "sword/basic_hilt", "basic_hilt/netherite_diamond" ],
+      "sword/pommel": [ "sword/grip_loop", "grip_loop/netherite_diamond" ],
+      "sword/guard": [ "sword/wide_guard", "wide_guard/netherite_diamond" ]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_diamond_pickaxe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/netherite_diamond"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/netherite_diamond"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_diamond"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_diamond_shovel"]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/netherite_diamond"],
+      "single/handle": ["single/basic_handle", "basic_handle/netherite_diamond"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_diamond_axe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_axe_left", "basic_axe/netherite_diamond"],
+      "double/head_right": ["double/butt_right", "butt/netherite_diamond"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_diamond"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_diamond_hoe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/netherite_diamond"],
+      "double/head_right": ["double/butt_right", "butt/netherite_diamond"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_diamond"]
+    }
+  },
+
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_emerald_pickaxe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/netherite_emerald"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/netherite_emerald"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_emerald"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_emerald_shovel"]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/netherite_emerald"],
+      "single/handle": ["single/basic_handle", "basic_handle/netherite_emerald"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_emerald_axe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_axe_left", "basic_axe/netherite_emerald"],
+      "double/head_right": ["double/butt_right", "butt/netherite_emerald"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_emerald"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_emerald_hoe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/netherite_emerald"],
+      "double/head_right": ["double/butt_right", "butt/netherite_emerald"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_emerald"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_emerald_sword"]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/netherite_emerald"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/netherite_emerald"],
+      "sword/pommel": ["sword/grip_loop", "grip_loop/netherite_emerald"],
+      "sword/guard": ["sword/wide_guard", "wide_guard/netherite_emerald"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_gold_pickaxe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/netherite_gold"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/netherite_gold"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_gold"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_gold_shovel"]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/netherite_gold"],
+      "single/handle": ["single/basic_handle", "basic_handle/netherite_gold"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_gold_axe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_axe_left", "basic_axe/netherite_gold"],
+      "double/head_right": ["double/butt_right", "butt/netherite_gold"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_gold"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_gold_hoe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/netherite_gold"],
+      "double/head_right": ["double/butt_right", "butt/netherite_gold"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_gold"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_gold_sword"]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/netherite_gold"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/netherite_gold"],
+      "sword/pommel": ["sword/grip_loop", "grip_loop/netherite_gold"],
+      "sword/guard": ["sword/wide_guard", "wide_guard/netherite_gold"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_iron_pickaxe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/netherite_iron"],
+      "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/netherite_iron"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_iron"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_iron_shovel"]
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/netherite_iron"],
+      "single/handle": ["single/basic_handle", "basic_handle/netherite_iron"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_iron_axe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_axe_left", "basic_axe/netherite_iron"],
+      "double/head_right": ["double/butt_right", "butt/netherite_iron"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_iron"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_iron_hoe"]
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/hoe_left", "hoe/netherite_iron"],
+      "double/head_right": ["double/butt_right", "butt/netherite_iron"],
+      "double/handle": ["double/basic_handle", "basic_handle/netherite_iron"]
+    }
+  },
+  {
+    "conditions": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "advancednetherite"
+      }
+    ],
+    "predicate": {
+      "items": ["advancednetherite:netherite_iron_sword"]
+    },
+    "item": "tetra:modular_sword",
+    "modules": {
+      "sword/blade": ["sword/basic_blade", "basic_blade/netherite_iron"],
+      "sword/hilt": ["sword/basic_hilt", "basic_hilt/netherite_iron"],
+      "sword/pommel": ["sword/grip_loop", "grip_loop/netherite_iron"],
+      "sword/guard": ["sword/wide_guard", "wide_guard/netherite_iron"]
+    }
+  }
+]

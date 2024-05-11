@@ -18,7 +18,13 @@
     "texture": "AFAFA5"
   },
   "textures": [
-    "metal"
+    "gold"
+  ],
+  "textureOverrides": [
+    "items/module/sword/blade/short/",
+    "items/module/sword/blade/machete/",
+    "items/module/sword/blade/heavy/",
+    "items/module/sword/blade/basic/"
   ],
   "material": {
     "items": [
