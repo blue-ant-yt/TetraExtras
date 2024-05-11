@@ -1,0 +1,40 @@
+{
+  "key": "ultimerite_ingot",
+  "category": "metal",
+  "primary": "15.2",
+  "secondary": "6.8",
+  "tertiary": "5.8",
+  "durability": "921",
+  "integrityCost": "2",
+  "integrityGain": "12",
+  "magicCapacity": "295",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "10",
+  "effects": {
+    "stabilizing": 2
+  },
+  "tints": {
+    "glyph": "A12509",
+    "texture": "A12509"
+  },
+  "textures": [
+    "metal"
+  ],
+  "material": {
+    "items": [
+      "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+    ]
+  },
+  "improvements": {
+
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgradednetherite_ultimate"
+    }
+  ]
+}

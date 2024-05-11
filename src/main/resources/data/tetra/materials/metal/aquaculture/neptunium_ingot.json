@@ -32,7 +32,7 @@
   "requiredTools": {
     "hammer_dig": "minecraft:netherite"
   },
-  "conditions":[
+  "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "aquaculture"

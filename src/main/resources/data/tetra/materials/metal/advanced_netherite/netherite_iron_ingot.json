@@ -1,0 +1,38 @@
+{
+  "key": "netherite_iron",
+  "category": "metal",
+  "primary": "8",
+  "secondary": "4.4",
+  "tertiary": "2.8",
+  "durability": "2313",
+  "integrityCost": "2",
+  "integrityGain": "8",
+  "magicCapacity": "245",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "8.4",
+  "tints": {
+    "glyph": "B9B9B9",
+    "texture": "B9B9B9"
+  },
+  "textures": [
+    "metal",
+    "shiny"
+  ],
+  "material": {
+    "items": [
+      "advancednetherite:netherite_iron_ingot"
+    ]
+  },
+  "improvements": {
+    "workable": 2
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "advancednetherite"
+    }
+  ]
+}

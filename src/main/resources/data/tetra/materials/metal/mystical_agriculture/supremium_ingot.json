@@ -1,0 +1,41 @@
+{
+  "key": "supremium_ingot",
+  "category": "metal",
+  "primary": "24",
+  "secondary": "9.6",
+  "tertiary": "2.8",
+  "durability": "100000",
+  "integrityCost": "2",
+  "integrityGain": "11",
+  "magicCapacity": "545",
+  "toolLevel": "minecraft:netherite",
+  "toolEfficiency": "14",
+  "effects": {
+    "stabilizing": 4,
+    "unbreaking": 100
+  },
+  "tints": {
+    "glyph": "EE2B25",
+    "texture": "EE2B25"
+  },
+  "textures": [
+    "crude"
+  ],
+  "material": {
+    "items": [
+      "mysticalagriculture:supremium_ingot"
+    ]
+  },
+  "improvements": {
+    "workable": 2
+  },
+  "requiredTools": {
+    "hammer_dig": "minecraft:netherite"
+  },
+  "conditions":[
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}
